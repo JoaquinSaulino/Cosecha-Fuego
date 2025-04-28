@@ -1,0 +1,443 @@
+/* Hero */
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* font-family: "Amatic SC", sans-serif; */
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Pie de Reset */
+
+html {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Header */
+
+header img {
+    width: 9.375rem;
+}
+
+.headerflex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+/* NAV CON BOOTSTRAP */
+
+.navbar-brand {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* PIE DE NAV CON BOOTSTRAP */
+
+/* Main */
+
+.mainweb {
+    position: relative;
+    z-index: 0;
+    margin-top: 4.6875rem;
+}
+
+
+h2{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 2.5rem;
+    color: black;
+    padding: .3125rem;
+    margin: .625rem;
+    background-color: #E9DBC3;
+    font-weight: 700;
+    font-family: "Amatic SC", sans-serif;
+}
+
+h4{
+    font-size: 2.5rem;
+    color: black;
+    padding: 5px;
+    margin: .625rem;
+    background-color: #8F8F8F;
+    font-weight: 700;
+    font-family: "Amatic SC", sans-serif;
+    box-shadow: .375rem .375rem .375rem -0.1875rem rgba(0,0,0,0.94);
+    border-radius: .625rem;
+    border: .1875rem solid black;
+}
+
+
+h5{
+    text-align: center;
+    font-size: 3.125rem;
+    color: black;
+    margin: .625rem;
+    padding: .625rem;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.textoiniciopages {
+    color: white;
+    font-family: "Amatic SC", sans-serif;
+}
+
+
+p{
+    color: black;
+    font-size: 2.1875rem;
+    font-family: "Amatic SC", sans-serif;
+}
+
+body{
+    background-color: #8F8F8F;
+}
+
+.textoinicio {
+    text-align: center;
+    background-image: url(../thelast-proyect-coder/medios/textoinicio.png);
+    height: 12.5rem;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125rem;
+}
+
+.textohome{
+    text-align: center;
+    margin: 1.875rem;
+    padding: 1.875rem;
+    border: .1875rem solid black;
+    box-shadow: .0625rem 0rem 1.4375rem .125rem rgba(0,0,0,0.75);
+    border-radius: 10px;
+    background-color: #E9DBC3;
+}
+
+.tituloshome {
+    text-align: center;
+    font-size: 5rem;
+    color: black;
+    margin: .625rem;
+    padding: .625rem;
+}
+/* CAJA VENTAS */
+
+.boxventa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.cajaventa {
+    border: .1875rem solid black;
+    font-size: 1.875rem;
+    margin: .9375rem;
+    padding: .625rem;
+    border-radius: 1.25rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #525252;
+}
+
+.cajaventa img {
+    height: 18.75rem;
+    border-radius: 1.25rem;
+    box-shadow: .8125rem .8125rem .5rem -0.125rem rgba(0,0,0,0.94);
+}
+
+.boxventagrid {
+    font-size: 2.1875rem;
+    color: black;
+    padding: .3125rem;
+    margin: .625rem;
+    border: .1875rem solid black;
+    box-shadow: .0625rem 0rem 1.4375rem .125rem rgba(0,0,0,0.75);
+    border-radius: 1.25rem;
+    background-color: #E9DBC3;
+    font-weight: 700;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.textocajaventa {
+    font-size: 2.1875rem;
+    color: black;
+    padding: .3125rem;
+    margin: .625rem;
+    font-weight: 700;
+    font-family: "Amatic SC", sans-serif;
+}
+
+/* Bootstrap */
+
+.carousel-item{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: .625rem;
+    margin: .9375rem;
+    padding: .625rem;
+    border: .1875rem solid black;
+    border-radius: 1.25rem;
+}
+
+.imgcarrusel { 
+    font-size: .625rem;
+    margin: .3125rem;
+    padding: .3125rem;
+    height: 15.625rem;
+    border: .1875rem solid black;
+    border-radius: 1.25rem;
+}
+
+.textobootstrap {
+    color: black;
+    font-family: "Amatic SC", sans-serif;
+}
+
+ /* Seccion uno */
+
+.quienessomosflex {
+    border: .1875rem solid black;
+    border-radius: 1.25rem;
+    font-size: 1.875rem;
+    margin: .9375rem;
+    background-color: #525252;
+}
+
+.quienessomos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .625rem;
+}
+
+.quienessomos img {
+    width: 15%;
+    border-radius: 1.25rem;
+    box-shadow: .8125rem .8125rem .5rem -0.125rem rgba(0,0,0,0.94);
+}
+
+/* Session dos */
+
+.queproductosflex {
+    border: .1875rem solid black;
+    border-radius: 1.25rem;
+    font-size: 1.875rem;
+    margin: .9375rem;
+    background-color: #525252;
+}
+
+.queproductos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .625rem;
+}
+
+.queproductos img {
+    width: 15%;
+    border-radius: 1.25rem;
+    box-shadow: -0.75rem .875rem .5rem -0.125rem rgba(0,0,0,0.94);
+}
+/* Session tres */
+
+.nuestrosproductosflex {
+    border: .1875rem solid black;
+    border-radius: 1.25rem;
+    font-size: 1.875rem;
+    margin: .9375rem;
+    background-color: #525252;
+}
+
+.nuestrosproductos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .625rem;
+}
+
+.nuestrosproductos img {
+    width: 15%;
+    border-radius: 1.25rem;
+    box-shadow: .8125rem .8125rem .5rem -0.125rem rgba(0,0,0,0.94);
+}
+
+/* Tablero de Contacto */
+
+.presupuestos {
+    border: .1875rem solid black;
+    border-radius: 1.25rem;
+    font-size: 1.875rem;
+    margin: .9375rem;
+    text-align: center;
+    background-color: #E9DBC3;
+    display: grid;
+    gap: .9375rem;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.mediocontacto {
+    font-size: 1.875rem;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bolder;
+    margin: .1875rem;
+    padding: .1875rem;
+    font-weight: 700;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1F1F1F;
+}
+
+footer img {
+    width: 6.25rem;
+    margin: .9375rem;
+    padding: .9375rem;
+}
+
+.footerflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerlogo img {
+    width: 9.375rem;
+}
+
+/* RESPONSIVE */
+
+/* MOBILE */
+@media (max-width: 480px){
+    .textoinicio{
+        width: 100vh;
+        margin: 0;
+        background-image: url(../thelast-proyect-coder/medios/textoinicio.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    h2{
+        font-size: 1.5625rem;
+    }
+
+    .textoiniciopages {
+        font-size: 1.25rem ;
+        width: 100%;
+    }
+
+
+/* Seccion uno - Home */
+
+    .quienessomosflex{
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 95vh;
+    }
+
+    .quienessomos{
+        flex-direction: column;
+    }
+
+    .quienessomos img {
+        display: none
+    }
+
+/* Session dos - Home */
+
+    .queproductosflex {
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 95vh;
+    }
+
+    .queproductos{
+        flex-direction: column;
+    }
+
+    .queproductos img {
+        display: none
+    }
+
+
+/* Session tres - Home */
+
+    .nuestrosproductosflex{
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 95vh;
+}
+
+    .nuestrosproductos{
+        flex-direction: column;
+}
+
+    .nuestrosproductos img {
+        display: none
+}
+
+/* PRODUCTOS DE BOX-VENTA */
+
+    .boxventa {
+        display: flex;
+        flex-direction: column;
+        width: 95vh;
+}
+
+    .presupuestos {
+        width: 95vh;
+}
+
+    .mediocontacto {
+        display: flex;
+        flex-direction: column;
+}
+
+/* FOOTER */
+
+    .footerflex {
+        width: 100vh;
+}
+
+
+
+
+
+}
+
+
+
+
+
+/* TABLET */
+@media (min-width: 481px) and (max-width:769px) {
+
+}
