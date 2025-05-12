@@ -1,0 +1,1358 @@
+/* A meterle! */
+/* Header & Footer */
+/* Header */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+header img {
+  width: 9.375rem;
+}
+
+/* NAV CON BOOTSTRAP */
+.navbar-brand {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: white;
+}
+
+/* PIE DE NAV CON BOOTSTRAP */
+/* Footer */
+.footerflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1F1F1F;
+}
+.footerflex .footerlogo img {
+  width: 9.375rem;
+}
+.footerflex .footerredes img {
+  width: 6.25rem;
+  margin: 0.9375rem;
+  padding: 0.9375rem;
+}
+
+/* PIE DE FOOTER */
+/* Pages Accesorios - Html */
+.mainweb {
+  position: relative;
+  z-index: 0;
+  margin-top: 4.6875rem;
+  /* Productos Accesorios - Html */
+  /* Carrusel */
+  /* Kit Mate Uno */
+  /* Kit Cafe Dos */
+  /* Kit Vino Tres */
+}
+.mainweb .textoinicio {
+  text-align: center;
+  background-image: url(../thelast-proyect-coder/medios/textoinicio.png);
+  height: 12.5rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.125rem;
+}
+.mainweb .textoinicio h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+}
+.mainweb .textoinicio .textoiniciopages {
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Kit Mate - Html */
+  /* Kit Cafe - Html */
+  /* Kit Vino - Html */
+}
+.mainweb .boxventa .cajaventa {
+  border: 0.1875rem solid black;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+}
+.mainweb .boxventa .cajaventa img {
+  height: 18.75rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.mainweb .boxventa .cajaventa .boxventagrid {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 1.25rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid .textocajaventa {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa {
+  border: 0.1875rem solid black;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+}
+.mainweb .boxventa .cajaventa img {
+  height: 18.75rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.mainweb .boxventa .cajaventa .boxventagrid {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 1.25rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid .textocajaventa {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa {
+  border: 0.1875rem solid black;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+}
+.mainweb .boxventa .cajaventa img {
+  height: 18.75rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.mainweb .boxventa .cajaventa .boxventagrid {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 1.25rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid .textocajaventa {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-inner .carousel-item active {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.625rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-inner .carousel-item active .imgcarrusel {
+  font-size: 0.625rem;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  height: 15.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-inner .carousel-item active .carouselproductos h4 {
+  text-align: center;
+  font-size: 3.125rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-inner .carousel-item active .carouselproductos .textobootstrap {
+  color: black;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.625rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .imgcarrusel {
+  font-size: 0.625rem;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  height: 15.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .carouselproductos h4 {
+  text-align: center;
+  font-size: 3.125rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item .carouselproductos .textobootstrap {
+  color: black;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.625rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .imgcarrusel {
+  font-size: 0.625rem;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  height: 15.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .carouselproductos h4 {
+  text-align: center;
+  font-size: 3.125rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item .carouselproductos .textobootstrap {
+  color: black;
+  font-family: "Amatic SC", sans-serif;
+}
+
+/* Pages Cafe - Html */
+.mainweb {
+  position: relative;
+  z-index: 0;
+  margin-top: 4.6875rem;
+  /* Productos Cafes - Html */
+  /* Carrusel */
+  /* Cafe Uno */
+  /* Cafe Dos */
+  /* Cafe Tres */
+}
+.mainweb .textoinicio {
+  text-align: center;
+  background-image: url(../thelast-proyect-coder/medios/textoinicio.png);
+  height: 12.5rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.125rem;
+}
+.mainweb .textoinicio h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+}
+.mainweb .textoinicio .textoiniciopages {
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Cafe Colombiano - Html */
+  /* Cafe Brazilero - Html */
+  /* Cafe Africano - Html */
+}
+.mainweb .boxventa .cajaventa {
+  border: 0.1875rem solid black;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+}
+.mainweb .boxventa .cajaventa img {
+  height: 18.75rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.mainweb .boxventa .cajaventa .boxventagrid {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 1.25rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid .textocajaventa {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa {
+  border: 0.1875rem solid black;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+}
+.mainweb .boxventa .cajaventa img {
+  height: 18.75rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.mainweb .boxventa .cajaventa .boxventagrid {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 1.25rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid .textocajaventa {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa {
+  border: 0.1875rem solid black;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+}
+.mainweb .boxventa .cajaventa img {
+  height: 18.75rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.mainweb .boxventa .cajaventa .boxventagrid {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 1.25rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid .textocajaventa {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-inner .carousel-item active {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.625rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-inner .carousel-item active .imgcarrusel {
+  font-size: 0.625rem;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  height: 15.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-inner .carousel-item active .carouselproductos h4 {
+  text-align: center;
+  font-size: 3.125rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-inner .carousel-item active .carouselproductos .textobootstrap {
+  color: black;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.625rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .imgcarrusel {
+  font-size: 0.625rem;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  height: 15.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .carouselproductos h4 {
+  text-align: center;
+  font-size: 3.125rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item .carouselproductos .textobootstrap {
+  color: black;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.625rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .imgcarrusel {
+  font-size: 0.625rem;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  height: 15.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .carouselproductos h4 {
+  text-align: center;
+  font-size: 3.125rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item .carouselproductos .textobootstrap {
+  color: black;
+  font-family: "Amatic SC", sans-serif;
+}
+
+/* Pages Mates - Html */
+.mainweb {
+  position: relative;
+  z-index: 0;
+  margin-top: 4.6875rem;
+  /* Productos Mates - Html */
+  /* Carrusel */
+  /* Mate Uno */
+  /* Mate Dos */
+  /* Mate Tres */
+}
+.mainweb .textoinicio {
+  text-align: center;
+  background-image: url(../thelast-proyect-coder/medios/textoinicio.png);
+  height: 12.5rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.125rem;
+}
+.mainweb .textoinicio h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+}
+.mainweb .textoinicio .textoiniciopages {
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Mate Imperial - Html */
+  /* Mate Torpedo - Html */
+  /* Mate Ceramico - Html */
+}
+.mainweb .boxventa .cajaventa {
+  border: 0.1875rem solid black;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+}
+.mainweb .boxventa .cajaventa img {
+  height: 18.75rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.mainweb .boxventa .cajaventa .boxventagrid {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 1.25rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid .textocajaventa {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa {
+  border: 0.1875rem solid black;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+}
+.mainweb .boxventa .cajaventa img {
+  height: 18.75rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.mainweb .boxventa .cajaventa .boxventagrid {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 1.25rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid .textocajaventa {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa {
+  border: 0.1875rem solid black;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+}
+.mainweb .boxventa .cajaventa img {
+  height: 18.75rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.mainweb .boxventa .cajaventa .boxventagrid {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 1.25rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid .textocajaventa {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-inner .carousel-item active {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.625rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-inner .carousel-item active .imgcarrusel {
+  font-size: 0.625rem;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  height: 15.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-inner .carousel-item active .carouselproductos h4 {
+  text-align: center;
+  font-size: 3.125rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-inner .carousel-item active .carouselproductos .textobootstrap {
+  color: black;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.625rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .imgcarrusel {
+  font-size: 0.625rem;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  height: 15.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .carouselproductos h4 {
+  text-align: center;
+  font-size: 3.125rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item .carouselproductos .textobootstrap {
+  color: black;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.625rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .imgcarrusel {
+  font-size: 0.625rem;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  height: 15.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .carouselproductos h4 {
+  text-align: center;
+  font-size: 3.125rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item .carouselproductos .textobootstrap {
+  color: black;
+  font-family: "Amatic SC", sans-serif;
+}
+
+/* Pages Vino - Html */
+.mainweb {
+  position: relative;
+  z-index: 0;
+  margin-top: 4.6875rem;
+  /* Productos Vinos - Html */
+  /* Carrusel */
+  /* Vino Uno */
+  /* Vino Dos */
+  /* Vino Tres */
+}
+.mainweb .textoinicio {
+  text-align: center;
+  background-image: url(../thelast-proyect-coder/medios/textoinicio.png);
+  height: 12.5rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.125rem;
+}
+.mainweb .textoinicio h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+}
+.mainweb .textoinicio .textoiniciopages {
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Vino Malbec - Html */
+  /* Vino Blanco - Html */
+  /* Vino Espumante - Html */
+}
+.mainweb .boxventa .cajaventa {
+  border: 0.1875rem solid black;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+}
+.mainweb .boxventa .cajaventa img {
+  height: 18.75rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.mainweb .boxventa .cajaventa .boxventagrid {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 1.25rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid .textocajaventa {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa {
+  border: 0.1875rem solid black;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+}
+.mainweb .boxventa .cajaventa img {
+  height: 18.75rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.mainweb .boxventa .cajaventa .boxventagrid {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 1.25rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid .textocajaventa {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa {
+  border: 0.1875rem solid black;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #525252;
+}
+.mainweb .boxventa .cajaventa img {
+  height: 18.75rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.mainweb .boxventa .cajaventa .boxventagrid {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 1.25rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  background-color: #E9DBC3;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .boxventa .cajaventa .boxventagrid .textocajaventa {
+  font-size: 2.1875rem;
+  color: black;
+  padding: 0.3125rem;
+  margin: 0.625rem;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-inner .carousel-item active {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.625rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-inner .carousel-item active .imgcarrusel {
+  font-size: 0.625rem;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  height: 15.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-inner .carousel-item active .carouselproductos h4 {
+  text-align: center;
+  font-size: 3.125rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-inner .carousel-item active .carouselproductos .textobootstrap {
+  color: black;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.625rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .imgcarrusel {
+  font-size: 0.625rem;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  height: 15.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .carouselproductos h4 {
+  text-align: center;
+  font-size: 3.125rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item .carouselproductos .textobootstrap {
+  color: black;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.625rem;
+  margin: 0.9375rem;
+  padding: 0.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .imgcarrusel {
+  font-size: 0.625rem;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  height: 15.625rem;
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+}
+.mainweb .carousel-item .carouselproductos h4 {
+  text-align: center;
+  font-size: 3.125rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.mainweb .carousel-item .carouselproductos .textobootstrap {
+  color: black;
+  font-family: "Amatic SC", sans-serif;
+}
+
+/* RESPONSIVE */
+/* MOBILE */
+@media (max-width: 480px) {
+  .textoinicio {
+    width: 100vh;
+    margin: 0;
+    background-image: url(../thelast-proyect-coder/medios/textoinicio.png);
+    background-size: cover;
+    background-position: center;
+  }
+  h2 {
+    font-size: 1.5625rem;
+  }
+  .textoiniciopages {
+    font-size: 1.25rem;
+    width: 100%;
+  }
+  /* Seccion uno - Home */
+  .quienessomosflex {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 95vh;
+  }
+  .quienessomos {
+    flex-direction: column;
+  }
+  .quienessomos img {
+    display: none;
+  }
+  /* Session dos - Home */
+  .queproductosflex {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 95vh;
+  }
+  .queproductos {
+    flex-direction: column;
+  }
+  .queproductos img {
+    display: none;
+  }
+  /* Session tres - Home */
+  .nuestrosproductosflex {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 95vh;
+  }
+  .nuestrosproductos {
+    flex-direction: column;
+  }
+  .nuestrosproductos img {
+    display: none;
+  }
+  /* PRODUCTOS DE BOX-VENTA */
+  .boxventa {
+    display: flex;
+    flex-direction: column;
+    width: 95vh;
+  }
+  .presupuestos {
+    width: 95vh;
+  }
+  .mediocontacto {
+    display: flex;
+    flex-direction: column;
+  }
+  /* FOOTER */
+  .footerflex {
+    width: 100vh;
+  }
+}
+/* TABLET */
+/* font-family: "Amatic SC", sans-serif; */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Pie de Reset */
+html {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Main */
+.mainweb {
+  position: relative;
+  z-index: 0;
+  margin-top: 4.6875rem;
+}
+.mainweb .textoinicio {
+  text-align: center;
+  background-image: url(../medios/textoinicio.png);
+  height: 12.5rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.125rem;
+}
+.mainweb .textoinicio h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+}
+.mainweb .textoinicio .textoiniciopages {
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 4.5rem;
+}
+
+/* Seccion Uno - Index */
+.quienessomosflex {
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  background-color: #525252;
+}
+.quienessomosflex .quienessomos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.625rem;
+}
+.quienessomosflex .quienessomos .textohome {
+  text-align: center;
+  margin: 1.875rem;
+  padding: 1.875rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  background-color: #E9DBC3;
+}
+.quienessomosflex .quienessomos .textohome .tituloshome {
+  text-align: center;
+  font-size: 5rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+}
+.quienessomosflex .quienessomos .textohome p {
+  color: black;
+  font-size: 2.1875rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.quienessomosflex .quienessomos img {
+  width: 15%;
+  border-radius: 1.25rem;
+  box-shadow: -0.75rem 0.875rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+
+/* Seccion Dos - Index */
+.queproductosflex {
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  background-color: #525252;
+}
+.queproductosflex .queproductos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.625rem;
+}
+.queproductosflex .queproductos .textohome {
+  text-align: center;
+  margin: 1.875rem;
+  padding: 1.875rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  background-color: #E9DBC3;
+}
+.queproductosflex .queproductos .textohome .tituloshome {
+  text-align: center;
+  font-size: 5rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+}
+.queproductosflex .queproductos .textohome p {
+  color: black;
+  font-size: 2.1875rem;
+  font-family: "Amatic SC", sans-serif;
+}
+.queproductosflex .queproductos img {
+  width: 15%;
+  border-radius: 1.25rem;
+  box-shadow: -0.75rem 0.875rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+
+/* Seccion Tres - Index */
+.nuestrosproductosflex {
+  border: 0.1875rem solid black;
+  border-radius: 1.25rem;
+  font-size: 1.875rem;
+  margin: 0.9375rem;
+  background-color: #525252;
+}
+.nuestrosproductosflex .nuestrosproductos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.625rem;
+}
+.nuestrosproductosflex .nuestrosproductos img {
+  width: 15%;
+  border-radius: 1.25rem;
+  box-shadow: 0.8125rem 0.8125rem 0.5rem -0.125rem rgba(0, 0, 0, 0.94);
+}
+.nuestrosproductosflex .nuestrosproductos .textohome {
+  text-align: center;
+  margin: 1.875rem;
+  padding: 1.875rem;
+  border: 0.1875rem solid black;
+  box-shadow: 0.0625rem 0rem 1.4375rem 0.125rem rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  background-color: #E9DBC3;
+}
+.nuestrosproductosflex .nuestrosproductos .textohome .tituloshome {
+  text-align: center;
+  font-size: 5rem;
+  color: black;
+  margin: 0.625rem;
+  padding: 0.625rem;
+}
+.nuestrosproductosflex .nuestrosproductos .textohome p {
+  color: black;
+  font-size: 2.1875rem;
+  font-family: "Amatic SC", sans-serif;
+}
+
+/*# sourceMappingURL=estilos.csdd.map */

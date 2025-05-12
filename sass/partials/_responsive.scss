@@ -1,0 +1,105 @@
+/* RESPONSIVE */
+/* MOBILE */
+@media (max-width: 480px){
+    .textoinicio{
+        width: 100vh;
+        margin: 0;
+        background-image: url(../thelast-proyect-coder/medios/textoinicio.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    h2{
+        font-size: 1.5625rem;
+    }
+
+    .textoiniciopages {
+        font-size: 1.25rem ;
+        width: 100%;
+    }
+
+
+/* Seccion uno - Home */
+
+    .quienessomosflex{
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 95vh;
+    }
+
+    .quienessomos{
+        flex-direction: column;
+    }
+
+    .quienessomos img {
+        display: none
+    }
+
+/* Session dos - Home */
+
+    .queproductosflex {
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 95vh;
+    }
+
+    .queproductos{
+        flex-direction: column;
+    }
+
+    .queproductos img {
+        display: none
+    }
+
+
+/* Session tres - Home */
+
+    .nuestrosproductosflex{
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 95vh;
+    }
+
+    .nuestrosproductos{
+        flex-direction: column;
+    }
+
+    .nuestrosproductos img {
+        display: none
+    }
+
+/* PRODUCTOS DE BOX-VENTA */
+
+    .boxventa {
+        display: flex;
+        flex-direction: column;
+        width: 95vh;
+    }
+
+    .presupuestos {
+        width: 95vh;
+    }
+
+    .mediocontacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+/* FOOTER */
+
+    .footerflex {
+        width: 100vh;
+    }
+}
+
+
+
+
+
+/* TABLET */
+@media (min-width: 481px) and (max-width:769px) {
+
+}

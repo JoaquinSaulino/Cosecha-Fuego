@@ -1,0 +1,320 @@
+// Pages Mates - Html
+/* Pages Mates - Html */
+
+.mainweb {
+    position: relative;
+    z-index: 0;
+    margin-top: 4.6875rem;
+
+    .textoinicio {
+        text-align: center;
+        background-image: url(../thelast-proyect-coder/medios/textoinicio.png);
+        height: 12.5rem;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3.125rem;
+
+        h1{
+            color: #ffffff;
+            font-size: 2.5rem;
+            font-family: "Amatic SC", sans-serif;
+            font-weight: 700;
+        }
+
+        .textoiniciopages {
+            color: white;
+            font-family: "Amatic SC", sans-serif;
+        }
+    }
+
+// Productos Mates - Html
+/* Productos Mates - Html */
+
+    .boxventa {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+// Mate Imperial - Html
+/* Mate Imperial - Html */
+
+        .cajaventa {
+            border: .1875rem solid black;
+            font-size: 1.875rem;
+            margin: .9375rem;
+            padding: .625rem;
+            border-radius: 1.25rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: #525252;
+
+            img {
+                height: 18.75rem;
+                border-radius: 1.25rem;
+                box-shadow: .8125rem .8125rem .5rem -0.125rem rgba(0,0,0,0.94);
+            }
+
+            .boxventagrid {
+                font-size: 2.1875rem;
+                color: black;
+                padding: .3125rem;
+                margin: .625rem;
+                border: .1875rem solid black;
+                box-shadow: .0625rem 0rem 1.4375rem .125rem rgba(0,0,0,0.75);
+                border-radius: 1.25rem;
+                background-color: #E9DBC3;
+                font-weight: 700;
+                font-family: "Amatic SC", sans-serif;
+
+                h2{
+                    font-size: 2.5rem;
+                    color: black;
+                    padding: .3125rem;
+                    margin: .625rem;
+                    background-color: #E9DBC3;
+                    font-weight: 700;
+                    font-family: "Amatic SC", sans-serif;
+                }
+
+                .textocajaventa {
+                    font-size: 2.1875rem;
+                    color: black;
+                    padding: .3125rem;
+                    margin: .625rem;
+                    font-weight: 700;
+                    font-family: "Amatic SC", sans-serif;
+                }
+            }
+        }
+
+// Mate Torpedo - Html
+/* Mate Torpedo - Html */
+
+        .cajaventa {
+            border: .1875rem solid black;
+            font-size: 1.875rem;
+            margin: .9375rem;
+            padding: .625rem;
+            border-radius: 1.25rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: #525252;
+
+            img {
+                height: 18.75rem;
+                border-radius: 1.25rem;
+                box-shadow: .8125rem .8125rem .5rem -0.125rem rgba(0,0,0,0.94);
+            }
+
+            .boxventagrid {
+                font-size: 2.1875rem;
+                color: black;
+                padding: .3125rem;
+                margin: .625rem;
+                border: .1875rem solid black;
+                box-shadow: .0625rem 0rem 1.4375rem .125rem rgba(0,0,0,0.75);
+                border-radius: 1.25rem;
+                background-color: #E9DBC3;
+                font-weight: 700;
+                font-family: "Amatic SC", sans-serif;
+
+                h2{
+                    font-size: 2.5rem;
+                    color: black;
+                    padding: .3125rem;
+                    margin: .625rem;
+                    background-color: #E9DBC3;
+                    font-weight: 700;
+                    font-family: "Amatic SC", sans-serif;
+                }
+
+                .textocajaventa {
+                    font-size: 2.1875rem;
+                    color: black;
+                    padding: .3125rem;
+                    margin: .625rem;
+                    font-weight: 700;
+                    font-family: "Amatic SC", sans-serif;
+                }
+            }
+        }
+
+// Mate Ceramico - Html
+/* Mate Ceramico - Html */
+
+        .cajaventa {
+            border: .1875rem solid black;
+            font-size: 1.875rem;
+            margin: .9375rem;
+            padding: .625rem;
+            border-radius: 1.25rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: #525252;
+
+            img {
+                height: 18.75rem;
+                border-radius: 1.25rem;
+                box-shadow: .8125rem .8125rem .5rem -0.125rem rgba(0,0,0,0.94);
+            }
+
+            .boxventagrid {
+                font-size: 2.1875rem;
+                color: black;
+                padding: .3125rem;
+                margin: .625rem;
+                border: .1875rem solid black;
+                box-shadow: .0625rem 0rem 1.4375rem .125rem rgba(0,0,0,0.75);
+                border-radius: 1.25rem;
+                background-color: #E9DBC3;
+                font-weight: 700;
+                font-family: "Amatic SC", sans-serif;
+
+                h2{
+                    font-size: 2.5rem;
+                    color: black;
+                    padding: .3125rem;
+                    margin: .625rem;
+                    background-color: #E9DBC3;
+                    font-weight: 700;
+                    font-family: "Amatic SC", sans-serif;
+                }
+
+                .textocajaventa {
+                    font-size: 2.1875rem;
+                    color: black;
+                    padding: .3125rem;
+                    margin: .625rem;
+                    font-weight: 700;
+                    font-family: "Amatic SC", sans-serif;
+                }
+            }
+        }
+    }
+
+//Carrusel
+/* Carrusel */
+
+/* Mate Uno */
+    .carousel-inner{
+        .carousel-item active {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-size: .625rem;
+            margin: .9375rem;
+            padding: .625rem;
+            border: .1875rem solid black;
+            border-radius: 1.25rem;
+
+            .imgcarrusel { 
+                font-size: .625rem;
+                margin: .3125rem;
+                padding: .3125rem;
+                height: 15.625rem;
+                border: .1875rem solid black;
+                border-radius: 1.25rem;
+            }
+
+            .carouselproductos {
+                h4{
+                    text-align: center;
+                    font-size: 3.125rem;
+                    color: black;
+                    margin: .625rem;
+                    padding: .625rem;
+                    font-family: "Amatic SC", sans-serif;
+                }
+
+                .textobootstrap {
+                    color: black;
+                    font-family: "Amatic SC", sans-serif;
+                }
+            }
+        }
+    }
+
+/* Mate Dos */
+        .carousel-item {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-size: .625rem;
+            margin: .9375rem;
+            padding: .625rem;
+            border: .1875rem solid black;
+            border-radius: 1.25rem;
+
+            .imgcarrusel { 
+                font-size: .625rem;
+                margin: .3125rem;
+                padding: .3125rem;
+                height: 15.625rem;
+                border: .1875rem solid black;
+                border-radius: 1.25rem;
+            }
+
+            .carouselproductos {
+                h4{
+                    text-align: center;
+                    font-size: 3.125rem;
+                    color: black;
+                    margin: .625rem;
+                    padding: .625rem;
+                    font-family: "Amatic SC", sans-serif;
+                }
+
+                .textobootstrap {
+                    color: black;
+                    font-family: "Amatic SC", sans-serif;
+                }
+            }
+        }
+
+/* Mate Tres */
+            .carousel-item {
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                font-size: .625rem;
+                margin: .9375rem;
+                padding: .625rem;
+                border: .1875rem solid black;
+                border-radius: 1.25rem;
+
+                .imgcarrusel { 
+                    font-size: .625rem;
+                    margin: .3125rem;
+                    padding: .3125rem;
+                    height: 15.625rem;
+                    border: .1875rem solid black;
+                    border-radius: 1.25rem;
+                }
+
+                .carouselproductos {
+                    h4{
+                        text-align: center;
+                        font-size: 3.125rem;
+                        color: black;
+                        margin: .625rem;
+                        padding: .625rem;
+                        font-family: "Amatic SC", sans-serif;
+                    }
+
+                    .textobootstrap {
+                        color: black;
+                        font-family: "Amatic SC", sans-serif;
+                    }
+                }
+        }
+    }

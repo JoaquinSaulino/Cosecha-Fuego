@@ -1,0 +1,206 @@
+// Vamoooooo con sass 
+/* A meterle! */
+
+@use "./partials/header-footer";
+@use "./partials/pageaccesorios";
+@use "./partials/pagecafes";
+@use "./partials/pagemates";
+@use "./partials/pagevinos";
+@use "./partials/responsive";
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* font-family: "Amatic SC", sans-serif; */
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Pie de Reset */
+
+html {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+// Main
+/* Main */
+
+.mainweb {
+    position: relative;
+    z-index: 0;
+    margin-top: 4.6875rem;
+
+    .textoinicio {
+        text-align: center;
+        background-image: url(../medios/textoinicio.png);
+        height: 12.5rem;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3.125rem;
+
+        h1{
+            color: #ffffff;
+            font-size: 2.5rem;
+            font-family: "Amatic SC", sans-serif;
+            font-weight: 700;
+        }
+
+        .textoiniciopages {
+            color: white;
+            font-family: "Amatic SC", sans-serif;
+            font-size: 2.5rem ;
+        }
+    }
+
+}
+
+// Seccion Uno - Index 
+/* Seccion Uno - Index */
+
+.quienessomosflex {
+    border: .1875rem solid black;
+    border-radius: 1.25rem;
+    font-size: 1.875rem;
+    margin: .9375rem;
+    background-color: #525252;
+
+    .quienessomos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: .625rem;
+
+        .textohome{
+            text-align: center;
+            margin: 1.875rem;
+            padding: 1.875rem;
+            border: .1875rem solid black;
+            box-shadow: .0625rem 0rem 1.4375rem .125rem rgba(0,0,0,0.75);
+            border-radius: 10px;
+            background-color: #E9DBC3;
+
+            .tituloshome {
+                text-align: center;
+                font-size: 5rem;
+                color: black;
+                margin: .625rem;
+                padding: .625rem;
+            }
+
+            p{
+                color: black;
+                font-size: 2.1875rem;
+                font-family: "Amatic SC", sans-serif;
+            }
+        }
+
+        img {
+            width: 15%;
+            border-radius: 1.25rem;
+            box-shadow: -0.75rem .875rem .5rem -0.125rem rgba(0,0,0,0.94);
+        }
+    }
+}
+
+// Seccion Dos - Index 
+/* Seccion Dos - Index */
+
+.queproductosflex {
+    border: .1875rem solid black;
+    border-radius: 1.25rem;
+    font-size: 1.875rem;
+    margin: .9375rem;
+    background-color: #525252;
+
+    .queproductos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: .625rem;
+
+        .textohome{
+            text-align: center;
+            margin: 1.875rem;
+            padding: 1.875rem;
+            border: .1875rem solid black;
+            box-shadow: .0625rem 0rem 1.4375rem .125rem rgba(0,0,0,0.75);
+            border-radius: 10px;
+            background-color: #E9DBC3;
+
+            .tituloshome {
+                text-align: center;
+                font-size: 5rem;
+                color: black;
+                margin: .625rem;
+                padding: .625rem;
+            }
+
+            p{
+                color: black;
+                font-size: 2.1875rem;
+                font-family: "Amatic SC", sans-serif;
+            }
+        }
+
+        img {
+            width: 15%;
+            border-radius: 1.25rem;
+            box-shadow: -0.75rem .875rem .5rem -0.125rem rgba(0,0,0,0.94);
+        }
+    }
+}
+
+// Seccion Tres - Index 
+/* Seccion Tres - Index */
+
+.nuestrosproductosflex {
+    border: .1875rem solid black;
+    border-radius: 1.25rem;
+    font-size: 1.875rem;
+    margin: .9375rem;
+    background-color: #525252;
+
+    .nuestrosproductos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: .625rem;
+
+        img {
+            width: 15%;
+            border-radius: 1.25rem;
+            box-shadow: .8125rem .8125rem .5rem -0.125rem rgba(0,0,0,0.94);
+        }
+
+        .textohome{
+            text-align: center;
+            margin: 1.875rem;
+            padding: 1.875rem;
+            border: .1875rem solid black;
+            box-shadow: .0625rem 0rem 1.4375rem .125rem rgba(0,0,0,0.75);
+            border-radius: 10px;
+            background-color: #E9DBC3;
+
+            .tituloshome {
+                text-align: center;
+                font-size: 5rem;
+                color: black;
+                margin: .625rem;
+                padding: .625rem;
+            }
+
+            p{
+                color: black;
+                font-size: 2.1875rem;
+                font-family: "Amatic SC", sans-serif;
+            }
+        }
+    }
+}
+

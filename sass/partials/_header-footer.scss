@@ -1,0 +1,46 @@
+// Header & Footer
+/* Header & Footer */
+
+// Header
+/* Header */
+
+header img {
+    width: 9.375rem;
+}
+
+// NAV CON BOOTSTRAP 
+/* NAV CON BOOTSTRAP */
+
+.navbar-brand {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+}
+
+// PIE DE NAV CON BOOTSTRAP 
+/* PIE DE NAV CON BOOTSTRAP */
+
+// Footer
+/* Footer */
+
+.footerflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F1F1F;
+
+    .footerlogo img {
+        width: 9.375rem;
+    }
+
+    .footerredes img {
+        width: 6.25rem;
+        margin: .9375rem;
+        padding: .9375rem;
+    }
+}
+
+// PIE DE FOOTER  
+/* PIE DE FOOTER */
